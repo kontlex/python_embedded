@@ -1,7 +1,7 @@
 #!/bin/sh
 
 root_dir=$(pwd)
-src_dir=${root_dir}/src
+src_dir=${root_dir}/py_src
 build_dir=${root_dir}/build
 install_dir=${root_dir}/python_bin
 

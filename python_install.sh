@@ -1,6 +1,8 @@
 #!/bin/sh
 
-. ./tc_parameters.sh
+if [ -f ./tc_parameters.sh ]; then
+    . ./tc_parameters.sh
+fi
 
 root_dir=$(pwd)
 src_dir=${root_dir}/py_src
